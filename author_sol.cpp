@@ -39,7 +39,7 @@ int main() {
 			if (sum > 0) {
 				// if yes, then add the product of ('sum' and ('k' - 2)) to 'res'
 				// note: we are subtracting 2 from 'k' since we have already found the
-				// maximum subarray sum when we inserted all the elements again the sequence (above)
+				// maximum subarray sum when we inserted all the elements again in the sequence (above)
 				res += (sum * (k - 2));
 			}
 			cout << res;
